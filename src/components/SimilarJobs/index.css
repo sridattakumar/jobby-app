@@ -1,0 +1,63 @@
+.similar-job-li-conatiner {
+  list-style: none;
+  color: #ffffff;
+  background-color: #272727;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  font-family: 'Roboto';
+  width: 30%;
+}
+.img-job-title-container {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 15px;
+}
+.title-job-rating-container {
+  margin-top: 0;
+}
+.location-job-icon{
+  color: #ffffff;
+  font-size: 20px;
+}
+.location-job-details-type-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.location-job-icon-location-container {
+  flex-direction: row;
+  display: flex;
+}
+.rating-job-text {
+  color: #ffffff;
+  font-weight: bold;
+}
+.star-job-icon {
+  color: #fbbf24;
+  font-size: 20px;
+  margin-left: 5px;
+}
+.company-job-logo {
+  width: 80px;
+  height: 80px;
+}
+.title-job-heading {
+  font-family: 'Roboto';
+  font-size: 100%;
+  margin-left: 5px;
+  margin-bottom: 15px;
+}
+.star-job-rating-container {
+  display: flex;
+  flex-direction: row;
+}
+
+@media screen and (max-width:767px){
+  .similar-job-li-conatiner{
+    width: 100%;
+  }
+  .title-job-heading{
+    font-size: 20px;
+  }
+}

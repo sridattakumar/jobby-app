@@ -1,0 +1,68 @@
+.header-container {
+  background-color: #272727;
+  padding: 10px;
+}
+.list-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style: none;
+}
+.logo-container {
+  margin-left: 10px;
+}
+.navlinks-container {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 20%;
+}
+.nav-to-name {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-size: 23px;
+  font-weight: bold;
+}
+.btn {
+  cursor: pointer;
+  background-color: #4f46e5;
+  color: #ffffff;
+  border-radius: 5px;
+  font-size: 23px;
+  font-weight: bold;
+  margin-top: 15px;
+  margin-right: 15px;
+  width: 100px;
+  height: 40px;
+  padding: 10px;
+}
+.nav-icon {
+  color: #ffffff;
+  font-size: 200%;
+}
+
+@media screen and (min-width: 768px) {
+  .nav-icon {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .nav-to-name {
+    display: none;
+  }
+  .btn {
+    display: none;
+  }
+  .logo {
+    width: 100%;
+    height: 100%;
+  }
+  .logo-container {
+    width: 20%;
+  }
+  .navlinks-container {
+    width: 40%;
+  }
+}
